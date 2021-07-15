@@ -8,3 +8,4 @@ project (core)
 
 # Add an executable
 add_subdirectory(time)
+add_subdirectory(thread)
