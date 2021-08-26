@@ -4,8 +4,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 # Set the project name
-project (main)
+project (Test_map)
 
 # Add an executable
-add_subdirectory(queue)
-add_subdirectory(map)
+add_executable(Test_map test_map.cpp)

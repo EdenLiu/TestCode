@@ -17,3 +17,5 @@ add_executable(TEST_TIMER main.cpp Time.cpp)
 
 #target_link_libraries MUST local AFTER add_executable, otherwise there will be error : Cannot specify link libraries for target "XXX" which is not built by this project.
 target_link_libraries(TEST_TIMER ${LIBRT})
+
+add_subdirectory(modifyTime)
