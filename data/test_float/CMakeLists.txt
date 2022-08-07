@@ -4,9 +4,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 # Set the project name
-project (core)
+project (Test_float)
 
 # Add an executable
-add_subdirectory(time)
-add_subdirectory(thread)
-add_subdirectory(memory)
+add_executable(Test_float Test_float.cpp)

@@ -21,6 +21,12 @@ a=00000078
 a=ffffffc9
 a=ffffff87
 */
+int tadd_ok(int x, int y){
+	if ((x > 0 && y > 0 && x+y < 0) || (x < 0 && y < 9 && x+y > 0))
+		return 1;
+	return 0;
+}
+
 int main(int arg, char** argc){
 	printf("a=%08x\n", fun1(0x00000078));
 	printf("a=%08x\n", fun1(0x000000C9));

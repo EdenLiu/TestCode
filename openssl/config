@@ -1,0 +1,618 @@
+{
+	"bms" : [],
+	"devices" : 
+	{
+		"gateway" : 
+		{
+			"ethernetMacAddress" : "F0D1B8160D2C",
+			"hardwareRevisionNumber" : "1",
+			"mac" : "F0D1B800001A6DBB",
+			"passcode" : null,
+			"product" : "fb935be9-d241-4e95-bc82-348e93ea2d47",
+			"sequenceNumber" : 1,
+			"uuid" : "7eb1ca4d-33fe-4a23-a37c-04fb498250e7"
+		},
+		"lights" : 
+		[
+			{
+				"description" : "",
+				"hardwareRevisionNumber" : "1",
+				"install-code" : "0000000000000000000000000000008D44F0",
+				"mac" : "000000000000008D",
+				"product" : "02908297-f39d-5336-b4cb-acbedd568feb",
+				"sequenceNumber" : 5,
+				"uuid" : "0370a289-c057-4a9d-bfc2-2fbaab973a70"
+			}
+		],
+		"sensors" : 
+		[
+			{
+				"description" : "-",
+				"install-code" : "C600229E7A3A836C4787598A577F7947DAF5",
+				"mac" : "F0D1B8168000014D",
+				"product" : "4d13754d-1246-556d-bd5b-2167323a88a1",
+				"sequenceNumber" : 1,
+				"uuid" : "27710d35-bc23-4156-a525-f902ec3b06ae"
+			},
+			{
+				"description" : "-",
+				"install-code" : "04D4286FCDFAD83BA642D0A2B4B2E1C12863",
+				"mac" : "F0D1B81680000180",
+				"product" : "0dc1e711-39ed-4983-b2c8-c2c624e25da5",
+				"sequenceNumber" : 2,
+				"uuid" : "60a5c4f4-619e-4c11-9ec9-385abb581a6c"
+			}
+		],
+		"switches" : 
+		[
+			{
+				"actions" : 
+				[
+					{
+						"action" : "set",
+						"button" : 1,
+						"event" : "hold pressed",
+						"target" : 
+						{
+							"type" : "room",
+							"uuid" : "d18f1a8f-6c58-4c58-b670-c56834d2475d"
+						},
+						"value" : 
+						{
+							"on" : true
+						}
+					},
+					{
+						"action" : "set",
+						"button" : 1,
+						"event" : "released",
+						"target" : 
+						{
+							"type" : "room",
+							"uuid" : "d18f1a8f-6c58-4c58-b670-c56834d2475d"
+						},
+						"value" : 
+						{
+							"on" : false
+						}
+					},
+					{
+						"action" : "set",
+						"button" : 2,
+						"event" : "hold pressed",
+						"target" : 
+						{
+							"type" : "room",
+							"uuid" : "d18f1a8f-6c58-4c58-b670-c56834d2475d"
+						},
+						"value" : 
+						{
+							"on" : true
+						}
+					},
+					{
+						"action" : "set",
+						"button" : 2,
+						"event" : "released",
+						"target" : 
+						{
+							"type" : "room",
+							"uuid" : "d18f1a8f-6c58-4c58-b670-c56834d2475d"
+						},
+						"value" : 
+						{
+							"on" : false
+						}
+					},
+					{
+						"action" : "set",
+						"button" : 3,
+						"event" : "hold pressed",
+						"target" : 
+						{
+							"type" : "room",
+							"uuid" : "d18f1a8f-6c58-4c58-b670-c56834d2475d"
+						},
+						"value" : 
+						{
+							"on" : true
+						}
+					},
+					{
+						"action" : "set",
+						"button" : 3,
+						"event" : "released",
+						"target" : 
+						{
+							"type" : "room",
+							"uuid" : "d18f1a8f-6c58-4c58-b670-c56834d2475d"
+						},
+						"value" : 
+						{
+							"on" : false
+						}
+					},
+					{
+						"action" : "set",
+						"button" : 4,
+						"event" : "hold pressed",
+						"target" : 
+						{
+							"type" : "room",
+							"uuid" : "d18f1a8f-6c58-4c58-b670-c56834d2475d"
+						},
+						"value" : 
+						{
+							"on" : true
+						}
+					},
+					{
+						"action" : "set",
+						"button" : 4,
+						"event" : "released",
+						"target" : 
+						{
+							"type" : "room",
+							"uuid" : "d18f1a8f-6c58-4c58-b670-c56834d2475d"
+						},
+						"value" : 
+						{
+							"on" : false
+						}
+					}
+				],
+				"buttonType" : "rocker",
+				"channelMappings" : 
+				[
+					{
+						"deviceChannel" : 1,
+						"userChannel" : 1
+					},
+					{
+						"deviceChannel" : 2,
+						"userChannel" : 2
+					},
+					{
+						"deviceChannel" : 3,
+						"userChannel" : 3
+					},
+					{
+						"deviceChannel" : 4,
+						"userChannel" : 4
+					}
+				],
+				"description" : "-",
+				"install-code" : "EB42C8CF78E7BA942EB860F2CCBBA76CBDF8",
+				"isActivated" : false,
+				"mac" : "F0D1B81E2400002C",
+				"product" : "7b6cfa2c-6a67-419a-a2b8-0b46d44aaf24",
+				"sequenceNumber" : 1,
+				"uuid" : "b2af235b-02da-4cee-9bd1-f7e894d27ccd"
+			}
+		]
+	},
+	"groups" : 
+	[
+		{
+			"description" : "",
+			"members" : [],
+			"name" : "Group1",
+			"room" : "d18f1a8f-6c58-4c58-b670-c56834d2475d",
+			"sensors" : 
+			[
+				"27710d35-bc23-4156-a525-f902ec3b06ae"
+			],
+			"uuid" : "3163faa4-5b81-418a-bf45-be875879b8fe"
+		},
+		{
+			"description" : "",
+			"members" : [],
+			"name" : "11",
+			"room" : "7d028b0f-d3ca-4182-8cfe-1daec9cf05f5",
+			"sensors" : 
+			[
+				"60a5c4f4-619e-4c11-9ec9-385abb581a6c"
+			],
+			"uuid" : "e47c0ce3-ab9b-4ebf-8d36-ae5db9d0e03f"
+		},
+		{
+			"description" : "",
+			"members" : 
+			[
+				"0370a289-c057-4a9d-bfc2-2fbaab973a70"
+			],
+			"name" : "22",
+			"room" : "7d028b0f-d3ca-4182-8cfe-1daec9cf05f5",
+			"sensors" : [],
+			"uuid" : "ba06d4e7-aa65-42d8-b80e-a20f8b718dc2"
+		}
+	],
+	"parameters" : 
+	{
+		"cloud" : "wss://staging-lsc-api.mondriaan.com/api/1/websocket/connect?client=gateway",
+		"fade" : 0,
+		"timeZone" : "Europe/Rome"
+	},
+	"products" : 
+	{
+		"gateway" : 
+		{
+			"imageURL" : "https://mondriaanledvance.azureedge.net/staging/prod_pictures/db6fcab7-9c7a-41de-810e-739d251f5738",
+			"manufacturer" : "1189",
+			"model" : "7E",
+			"name" : "Vivares ZB Controller",
+			"properties" : 
+			[
+				{
+					"title" : 
+					{
+						"en" : "Communication ports"
+					},
+					"unit" : "",
+					"value" : "2\u00d7 10/100 BaseT Ethernet port, ZigBee port"
+				},
+				{
+					"title" : 
+					{
+						"en" : "Dimensions"
+					},
+					"unit" : "",
+					"value" : "90*90*26 mm (LxBxH)"
+				},
+				{
+					"title" : 
+					{
+						"en" : "IP Rating"
+					},
+					"unit" : "",
+					"value" : "IP20"
+				},
+				{
+					"title" : 
+					{
+						"en" : "Input Voltage"
+					},
+					"unit" : "",
+					"value" : "5 V DC"
+				},
+				{
+					"title" : 
+					{
+						"en" : "Input current"
+					},
+					"unit" : "",
+					"value" : "1 A"
+				},
+				{
+					"title" : 
+					{
+						"en" : "Mounting method"
+					},
+					"unit" : "",
+					"value" : "Ceiling & wall mounting"
+				},
+				{
+					"title" : 
+					{
+						"en" : "Wireless communication"
+					},
+					"unit" : "",
+					"value" : "Zigbee 3.0"
+				},
+				{
+					"title" : 
+					{
+						"en" : "Wireless communication (Zigbee3.0 / Frequency)"
+					},
+					"unit" : "",
+					"value" : "Zigbee 3.0"
+				}
+			],
+			"uuid" : "fb935be9-d241-4e95-bc82-348e93ea2d47"
+		},
+		"lights" : 
+		[
+			{
+				"imageURL" : "https://mondriaanledvance.azureedge.net/staging/prod_pictures/f5cb2ee3-50bf-4a0e-b335-37921fbf1193",
+				"manufacturer" : "1189",
+				"model" : "88",
+				"name" : "DL UGR19 DN155 PFM 21W 840 WT",
+				"properties" : 
+				[
+					{
+						"title" : 
+						{
+							"en" : "Nominal wattage"
+						},
+						"unit" : "W",
+						"value" : "21"
+					},
+					{
+						"title" : 
+						{
+							"en" : "Luminous flux"
+						},
+						"unit" : "lm",
+						"value" : "2520"
+					},
+					{
+						"title" : 
+						{
+							"en" : "Beam angle"
+						},
+						"unit" : "°",
+						"value" : "60"
+					},
+					{
+						"title" : 
+						{
+							"en" : "CCT"
+						},
+						"unit" : "K",
+						"value" : "4000"
+					},
+					{
+						"title" : 
+						{
+							"en" : "CRI"
+						},
+						"unit" : "",
+						"value" : "\u2265 80"
+					},
+					{
+						"title" : 
+						{
+							"en" : "Lifespan L70"
+						},
+						"unit" : "h",
+						"value" : "70000"
+					},
+					{
+						"title" : 
+						{
+							"en" : "Lifespan L80"
+						},
+						"unit" : "h",
+						"value" : "60000"
+					},
+					{
+						"title" : 
+						{
+							"en" : "Lifespan L90"
+						},
+						"unit" : "h",
+						"value" : "40000"
+					},
+					{
+						"title" : 
+						{
+							"en" : "UGR"
+						},
+						"unit" : "",
+						"value" : "< 19"
+					},
+					{
+						"title" : 
+						{
+							"en" : "Length"
+						},
+						"unit" : "mm",
+						"value" : "220"
+					},
+					{
+						"title" : 
+						{
+							"en" : "Width"
+						},
+						"unit" : "mm",
+						"value" : "220"
+					},
+					{
+						"title" : 
+						{
+							"en" : "Height"
+						},
+						"unit" : "mm",
+						"value" : "82"
+					},
+					{
+						"title" : 
+						{
+							"en" : "Product Weight"
+						},
+						"unit" : "g",
+						"value" : "700"
+					}
+				],
+				"uuid" : "02908297-f39d-5336-b4cb-acbedd568feb"
+			}
+		],
+		"sensors" : 
+		[
+			{
+				"imageURL" : "https://mondriaanledvance.azureedge.net/staging/prod_pictures/d71b4761-14fa-401e-b524-c2725f491fe9",
+				"manufacturer" : "1189",
+				"model" : "7C",
+				"name" : "VIVARES COMBINED SENSOR",
+				"properties" : 
+				[
+					{
+						"title" : 
+						{
+							"en" : "Dimension"
+						},
+						"unit" : "",
+						"value" : "85*85*64 mm (LxBxH)"
+					},
+					{
+						"title" : 
+						{
+							"en" : "IP Rating"
+						},
+						"unit" : "",
+						"value" : "IP 20"
+					},
+					{
+						"title" : 
+						{
+							"en" : "Mounting method"
+						},
+						"unit" : "",
+						"value" : "Ceiling integration"
+					},
+					{
+						"title" : 
+						{
+							"en" : "Rated input volt."
+						},
+						"unit" : "",
+						"value" : "220-240 V"
+					},
+					{
+						"title" : 
+						{
+							"en" : "Sensor type"
+						},
+						"unit" : "",
+						"value" : "occupatncy & light"
+					},
+					{
+						"title" : 
+						{
+							"en" : "Ta"
+						},
+						"unit" : "",
+						"value" : "-20 \u2026 +45\u00b0C"
+					},
+					{
+						"title" : 
+						{
+							"en" : "Wireless communication (Zigbee3.0 / Frequency)"
+						},
+						"unit" : "",
+						"value" : "Zigbee 3.0"
+					}
+				],
+				"uuid" : "4d13754d-1246-556d-bd5b-2167323a88a1"
+			},
+			{
+				"imageURL" : "https://mondriaanledvance.azureedge.net/staging/prod_pictures/8bc39ce9-004b-463b-b742-737054d80fc6",
+				"manufacturer" : "1189",
+				"model" : "97",
+				"name" : "VIVARES PIR ONLY SENSOR",
+				"properties" : [],
+				"uuid" : "0dc1e711-39ed-4983-b2c8-c2c624e25da5"
+			}
+		],
+		"switches" : 
+		[
+			{
+				"imageURL" : "https://mondriaanledvance.azureedge.net/staging/prod_pictures/6cffbe9c-6d88-4c22-a2de-509a77483d7b",
+				"manufacturer" : "1189",
+				"model" : "98",
+				"name" : "VIVARES ZB COUPLER",
+				"properties" : [],
+				"uuid" : "7b6cfa2c-6a67-419a-a2b8-0b46d44aaf24"
+			}
+		]
+	},
+	"project" : 
+	{
+		"created" : "2021-07-16T05:53:25Z",
+		"last-modified" : "2021-08-10T03:14:10Z",
+		"revision" : 162,
+		"uuid" : "6cf5f8ee-5beb-4a09-bba1-835a89161d6a"
+	},
+	"rooms" : 
+	[
+		{
+			"groups" : 
+			[
+				"3163faa4-5b81-418a-bf45-be875879b8fe"
+			],
+			"members" : [],
+			"name" : "ROOM 1",
+			"sensors" : 
+			[
+				"27710d35-bc23-4156-a525-f902ec3b06ae"
+			],
+			"switches" : 
+			[
+				"b2af235b-02da-4cee-9bd1-f7e894d27ccd"
+			],
+			"uuid" : "d18f1a8f-6c58-4c58-b670-c56834d2475d"
+		},
+		{
+			"groups" : 
+			[
+				"e47c0ce3-ab9b-4ebf-8d36-ae5db9d0e03f",
+				"ba06d4e7-aa65-42d8-b80e-a20f8b718dc2"
+			],
+			"members" : 
+			[
+				"0370a289-c057-4a9d-bfc2-2fbaab973a70"
+			],
+			"name" : "Room2",
+			"sensors" : 
+			[
+				"60a5c4f4-619e-4c11-9ec9-385abb581a6c"
+			],
+			"switches" : [],
+			"uuid" : "7d028b0f-d3ca-4182-8cfe-1daec9cf05f5"
+		}
+	],
+	"rules" : 
+	[
+		{
+			"actions" : 
+			{
+				"target" : 
+				{
+					"type" : "room",
+					"uuid" : "d18f1a8f-6c58-4c58-b670-c56834d2475d"
+				},
+				"value" : 
+				{
+					"auto-off" : true,
+					"auto-on" : true,
+					"delay" : 300,
+					"delay-dim" : 600,
+					"dlh-enabled" : false,
+					"level" : 100,
+					"level-dim" : 30
+				}
+			},
+			"duration" : "00:00-23:59",
+			"name" : "R1",
+			"repeat" : 127,
+			"room" : "d18f1a8f-6c58-4c58-b670-c56834d2475d",
+			"uuid" : "1f44752e-98d2-48e6-a1f4-aba569e9b923"
+		},
+		{
+			"actions" : 
+			{
+				"target" : 
+				{
+					"type" : "room",
+					"uuid" : "7d028b0f-d3ca-4182-8cfe-1daec9cf05f5"
+				},
+				"value" : 
+				{
+					"auto-off" : true,
+					"auto-on" : true,
+					"delay" : 300,
+					"dlh-enabled" : false,
+					"level" : 100
+				}
+			},
+			"duration" : "00:00-23:59",
+			"name" : "111",
+			"repeat" : 127,
+			"room" : "7d028b0f-d3ca-4182-8cfe-1daec9cf05f5",
+			"uuid" : "a1210c79-e345-4491-bc19-c7a45fd840c4"
+		}
+	],
+	"scenes" : [],
+	"schedules" : [],
+	"version" : 5
+}

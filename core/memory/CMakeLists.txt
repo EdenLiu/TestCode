@@ -4,19 +4,18 @@
 cmake_minimum_required(VERSION 3.5)
 
 # Set the project name
-project (TEST_ASSEMEBLY)
-message(STATUS "*project ${PROJECTNAME}")
+project (TEST_MEMORY)
+
 #set C++11
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
 
-#find_library(LIBRT librt.so REQUIRED)
-#find_library(LIBPTHREAD libpthread.so REQUIRED)
+#find_library(TEST_MEMORY librt.so REQUIRED)
 #message(STATUS "path librt : ${LIBRT}")
-message(STATUS "path libpthread : ${LIBPTHREAD}")
-# Add an executable
-add_executable(TEST_ASSEMEBLY test_assemebly.cpp)
 
-#add_subdirectory(test_3_2_mstore)
+# Add an executable
+add_executable(TEST_MEMORY main.cpp nvwa/debug_new.cpp)
 
 #target_link_libraries MUST local AFTER add_executable, otherwise there will be error : Cannot specify link libraries for target "XXX" which is not built by this project.
-#target_link_libraries(TEST_THREAD ${LIBPTHREAD})
+#target_link_libraries(TEST_MEMORY ${LIBRT})
+
+#add_subdirectory(modifyTime)
